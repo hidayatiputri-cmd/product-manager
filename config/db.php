@@ -10,7 +10,4 @@ $pdo = new PDO(
         PDO::ATTR_EMULATE_PREPARES => false
     ]
 );
-
-// Tambahkan baris ini HANYA untuk mengecek koneksi
-echo "Koneksi database berhasil!";
 ?>
